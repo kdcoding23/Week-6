@@ -2,7 +2,7 @@ var expect = chai.expect;
 
 describe("MyFunctions", function(){
     describe("#createDeck", function(){
-        it("should create a deck of 52 cards using various suits and ranks", function(){
+        it("should create a deck of cards using 2 array items per card", function(){
             // var newDeck = createDeck();
             // expect(newDeck.length).to.equal(52);
             var suits = ['clubs', 'diamonds', 'hearts', 'spades'];
